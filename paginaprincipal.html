@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyCare - Página principal</title>
+    <link rel="icon" href="/imagens/imagemLOGO02.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"> 
+        <img src="/imagens/imagemLOGO02.png" alt="Logo EasyCare" class="logoForm2" id="menu">
+        <img src="/imagens/imagemPersonIcon01.webp" onclick="mostrarUsuario('paginaUsuario')" alt="Icone de usuário" class="iconeUsuario">
+    </header>
+
+    <div id="paginaUsuario" style="display: none;">
+        <a href="" class="aConfig"><h1>Perfil</h1></a>
+        <a href="" class="aConfig"><h1>Configurações</h1></a>
+        <a href="/index.html" class="aConfig"><h1>Sair</h1></a>
+    </div>
+    
+    <div id="containerPrincipal"> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> <br>
+       <div class="block"></div> 
+    </div>
+    
+    <img src="/imagens/imagemElementos01.png" alt="Elemento01" class="elemento e1">
+    <img src="/imagens/imagemElementos02.png" alt="Elemento02" class="elemento e2">
+    <img src="/imagens/ImagemElementos03.png" alt="Elemento03" class="elemento e3">
+    <img src="/imagens/ImagemElementos04.png" alt="Elemento04" class="elemento e4">
+
+    <footer>
+        <h2 id="emergency" onclick="mostrarOpcao()">Contato de emergência</h2>
+        <div id="opcao">
+
+  <p style="font-size: 50px;">Tem certeza que deseja ligar ao seu contato de emergência?</p>
+
+  <i style="font-size: 30px">Se desejar, clique em "Não" para cancelar a ligação. <br>
+    Caso demore mais de 10 segundos para cancelar, a ligação será efetuada.</i>
+
+  <button onclick="confirmar()" class="button">Sim</button>
+  <button onclick="cancelar()" class="button">Não</button>
+  </div>
+
+   <p style="position: fixed; bottom: 10px; left: 10px;">Todos os direitos reservados EasyCare 2025.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

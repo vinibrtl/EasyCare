@@ -1,0 +1,324 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 50px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+input, textarea, select {
+  text-align: left;
+}
+
+select {
+  text-align: left; 
+  text-align-last: left; 
+}
+
+.body {
+    background-color: #1a2d3b;
+}
+
+.header {
+    background-color: #1a2d3b;
+    height: 100px;
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    display: block;
+  }
+
+.aConfig {
+    text-decoration: none;
+    color: white;
+}
+
+.aConfig:hover {
+    color: grey;
+}
+
+.container-botoes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    gap: 20px; 
+  }
+
+.entrar {
+    margin-top: 50px;
+    margin-right: 33px;
+    padding: 15px 150px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.entrar:hover {
+    border: 2px darkgrey solid;
+}
+
+.button {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 70px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.selecionar {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 70px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.logoForm1 {
+    width: 400px;
+    margin-bottom: -50px;
+    margin-right: 5px;
+}
+
+.logoForm2 {
+    width: 110px;
+    top: 3px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+
+.iconeUsuario {
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    top: 18px; 
+    right: 20px;
+    cursor: pointer;
+}
+
+.voltar {
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    top: 18px; 
+    left: 10px; 
+}
+
+.elemento {
+  position: fixed;
+  width: auto;       
+  height: auto;
+}
+
+.e1 { top: 100px; left: 320px; width: 700px; height: 500px;}
+.e2 { top: 100px; left: 900px; width: 500px; height: 500px;}
+.e3 { top: 100px; left: 1400px; width: 600px; height: 500px; z-index: 2;}
+.e4 { top: 600px; left: 1400px; }
+
+.block {
+    background-color: #a2d862;
+    border-radius: 20px;
+    padding: 50px 20px 50px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#index {
+    background-color: #1a2d3b;
+}
+
+#containerLogin {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#containerSignup {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 2100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#containerPrincipal {
+    margin-top: 0px;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    width: 300px;
+    height: 870px;
+    background-color: #bde390;
+    border-radius: 5px;
+}
+
+#paginaUsuario {
+    padding: 25px 50px 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    background-color: #1a2d3b;
+    width: 1000px;
+    border-radius: 100px;
+    z-index: 10;
+    position: fixed;
+    right: 20px; 
+    top: 80px;
+}
+
+#botaoEntrar {
+    background-color: #55deb0;
+    padding: 40px 200px 40px;
+    border-radius: 100px;
+    right: 0;
+    font-size: 50px;
+    color:white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;  
+}
+
+#botaoEntrar:hover {
+    background-color: #46af8c;
+}
+
+#botaoLogin {
+    background-color: #a2d862;
+    padding: 30px 175px 30px;
+    border-radius: 100px;
+    right: 0;
+    font-size: 40px;
+    color:white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;  
+}
+
+#botaoLogin:hover {
+    background-color: #7cb342;
+}
+
+#emergency {
+    padding: 10px 20px 10px;
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    background-color: #1a2d3b; 
+    color: red;
+    border-radius: 40px;
+}
+
+#emergency:hover {
+    padding: 10px 20px 10px;
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    background-color: red; 
+    color: #1a2d3b;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#opcao {
+    display:none; 
+    position:fixed; 
+    left:50%; 
+    transform:translateX(-50%); 
+    background:#eee; 
+    padding:50px; 
+    border:1px solid #ccc;     
+    z-index: 5;                   
+}
+
+#acessar {
+    color: #1a2d3b;
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-top: 20px;
+    margin: 10px 10px 0px;
+}
+
+#irCadastro {
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 25px;
+    font-size: 26px;
+}
+
+#irCadastro:hover {
+    color: grey;
+}
+
+#irLogin {
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+#irLogin:hover {
+    color: rgb(214, 219, 224);
+}
+
+#finalizar {
+    background-color: #55deb0;
+    padding: 20px 110px 20px;
+    border-radius: 100px;
+    right: 0;
+    font-size: 30px;
+    color:white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;  
+    margin-bottom: 30px;
+}
+
+#finalizar:hover {
+    background-color: #ff0000;
+    padding: 20px 110px 20px;
+    border-radius: 100px;
+    right: 0;
+    font-size: 30px;
+    color:white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;  
+    margin-bottom: 30px;
+}
+
+#welcome {
+    color: #fcfcfc;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 45px;
+}
+
+#senha {
+    margin-bottom: 20px;
+}
